@@ -1,1 +1,1 @@
-Script de automação.
+Scripts de automação.
