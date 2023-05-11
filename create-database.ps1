@@ -33,7 +33,7 @@ if ($result -match $database) {
     Write-Host ""
 }
 
-$checkUserCommand = "mysql.exe -u root -p -e `"SELECT user FROM mysql.user WHERE user = 'lucas' AND host = '$server'`""
+$checkUserCommand = "mysql.exe -u root -p -e `"SELECT user FROM mysql.user WHERE user = '$username' AND host = '$server'`""
 $output = Invoke-Expression -Command $checkUserCommand
 
 if ($output -match $username) {
