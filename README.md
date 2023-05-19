@@ -1,1 +1,1 @@
-Scripts de automação.
+# automate-laravel
